@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Movie Ticket Website</title>
+</head>
+<body>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/Home.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/Ticket%20booking.html">Movies</a></li>
+        <li><a href="http://127.0.0.1:5500/contact.html">Feedback</a></li>
+    </ul>
+
+   <div class="movie-container">
+    <label>Select a Movie</label>
+    <select id="movie">
+        <option value="20">Extraction 2  ($20)</option>
+        <option value="30">Avatar ($30)</option>
+        <option value="25">Avengers:End Game ($25)</option>
+        <option value="20">Damsel ($20)</option>
+        <option value="25">Oppen heimer ($25)</option>
+        <option value="30">The lion king ($30)</option>
+       
+    </select>
+   </div>
+  
+   <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small>Available</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+      <small>Selected</small>
+    </li>
+    <li>
+      <div class="seat sold"></div>
+      <small>Sold</small>
+    </li>
+  </ul>
+  <section>
+    <iframe class="screen" width="430" height="460" src="https://www.youtube.com/embed/TcMBFSGVi1c?si=upuNyXxqB7Y1ZR9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+            
+  
+
+   <div class="container">
+  
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat "></div>
+            <div class="seat "></div>
+            </div>
+    
+            
+        
+    
+    
+ 
+
+   <p class="text" >
+    You have selected<span id="count"> 0</span> seat for a price for $.<span id="total"> 0 </span>
+   </p>
+</body>
+<script src="./Ticket.js"></script>
+</html>
